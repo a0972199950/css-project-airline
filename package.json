@@ -1,0 +1,13 @@
+{
+  "name": "CSS-Project_Plant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss/bootstrap/bootstrap.scss:src/bootstrap.css scss/style.scss:src/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
