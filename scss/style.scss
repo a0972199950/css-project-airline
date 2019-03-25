@@ -7,6 +7,10 @@ $primary: #217484;
     font-size: .9rem;
 }
 
+body {
+    margin-top: 45px;
+}
+
 .form-control {
     border-radius: 0px;
 }
@@ -77,6 +81,14 @@ $primary: #217484;
 #main-nav {
     font-size: .8rem;
     box-shadow: 0px 1px 5px $dark-gray;
+
+    @media(max-width: 768px){
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+    }
 
     a {
         color: $dark-gray;
@@ -200,7 +212,7 @@ $primary: #217484;
         cursor: pointer;
 
         @media(min-width: 768px){
-            left: 3rem;
+            left: 1rem;
         }
 
         @media(min-width: 1080px){
@@ -225,7 +237,7 @@ $primary: #217484;
         cursor: pointer;
 
         @media(min-width: 768px){
-            right: 3rem;
+            right: 1rem;
         }
 
         @media(min-width: 1080px){
@@ -289,7 +301,7 @@ $primary: #217484;
         cursor: pointer;
 
         @media(min-width: 768px){
-            left: 3rem;
+            left: 1rem;
         }
 
         @media(min-width: 1080px){
@@ -314,7 +326,7 @@ $primary: #217484;
         cursor: pointer;
 
         @media(min-width: 768px){
-            right: 3rem;
+            right: 1rem;
         }
 
         @media(min-width: 1080px){
