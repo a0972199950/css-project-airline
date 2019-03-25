@@ -1,6 +1,8 @@
-$("#main-carousel").carousel();
+$("#main-carousel").carousel({
+    interval: 3000
+});
 
-$("#explore .carousel").slick({
+$("#explore .carousel-pc").slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -11,15 +13,17 @@ $("#explore .carousel").slick({
             settings: {
                 slidesToShow: 2
             }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                arrows: false
-            }
         }
     ]
+});
+
+$("#explore .carousel-sp").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    centerMode: true,
+    centerPadding: '30px'
 });
 
 $("#prepare .carousel").slick({
@@ -38,7 +42,9 @@ $("#prepare .carousel").slick({
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                arrows: false
+                arrows: false,
+                centerMode: true,
+                centerPadding: '30px'
             }
         }
     ]
