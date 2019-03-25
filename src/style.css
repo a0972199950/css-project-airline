@@ -3,8 +3,10 @@
   font-size: 0.9rem;
 }
 
-body {
-  margin-top: 45px;
+@media (max-width: 768px) {
+  body {
+    margin-top: 45px;
+  }
 }
 
 .form-control {

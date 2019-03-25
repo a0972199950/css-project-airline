@@ -8,7 +8,9 @@ $primary: #217484;
 }
 
 body {
-    margin-top: 45px;
+    @media(max-width: 768px) {
+        margin-top: 45px;
+    }    
 }
 
 .form-control {
