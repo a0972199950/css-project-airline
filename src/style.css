@@ -191,7 +191,7 @@ body {
 }
 @media (max-width: 768px) {
   #explore .carousel-prev {
-    display: none;
+    display: none !important;
   }
 }
 #explore .carousel-next {
@@ -217,7 +217,7 @@ body {
 }
 @media (max-width: 768px) {
   #explore .carousel-next {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -270,7 +270,7 @@ body {
 }
 @media (max-width: 768px) {
   #prepare .carousel-prev {
-    display: none;
+    display: none !important;
   }
 }
 #prepare .carousel-next {
@@ -296,7 +296,7 @@ body {
 }
 @media (max-width: 768px) {
   #prepare .carousel-next {
-    display: none;
+    display: none !important;
   }
 }
 
